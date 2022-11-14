@@ -1,0 +1,135 @@
+.nav-item-dropdown {
+    position: relative;
+}
+
+.container-fluid {
+    background: danger;
+}
+
+/* .dropdown-menu.show {
+    position: relative !important;
+    display: inline-block;
+} */
+header {
+    background: transparent;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif
+
+}
+.header-image {
+    background-image: url(./img2.jpg);
+    width: 1280px;
+    height: 630px;
+    background-size: 100% 630px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border: solid rgb(34, 32, 32);
+
+}
+.text-box {
+    position: absolute;
+    top: 460px;
+    width: 90%;
+    left: 9%;
+
+
+
+}
+
+.text-box .inner-text-box {
+    
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: -380px;
+    left: -100px;
+}
+
+.text-box .inner-text-box h1 {
+    color: rgb(88, 59, 3);
+    font-size: 35px;
+    position: relative;
+    top: 40px;
+    left: 10px;
+
+}
+
+
+.text-box .inner-text-box button {
+    position: relative;
+    top: 35px;
+    left: 430px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.text-box .inner-text-box button:hover {
+    background-color: rgb(244, 247, 240);
+}
+.main-body{
+    background-image: url(./mainbody.jpg);
+    width: 1280px;
+    height: 480px;
+}
+.footer{
+    background-color: #000;
+    width: 1000px;
+    height: 480px;
+}
+.container{
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+ul{
+    list-style: none;
+}
+.footer-col{
+    width: 15%;
+    padding: 0px 15px;
+}
+.footer-col h4{
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    padding-top: 110px;
+}
+.footer-col h4:hover{
+    border-bottom: 4px solid rgb(110, 98, 102);
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #fff;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0,3s ease;
+}
+.footer-col ul li a:hover{
+color: #fff;
+padding-left: 10px;
+}
